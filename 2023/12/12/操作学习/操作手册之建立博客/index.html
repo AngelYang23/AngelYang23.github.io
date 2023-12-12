@@ -1,0 +1,178 @@
+<!doctype html>
+<html lang="zh"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"><meta><title>Yang&#039;s site.</title><link rel="manifest" href="/manifest.json"><meta name="application-name" content="Yang&#039;s site."><meta name="msapplication-TileImage" content="/img/favicon.svg"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-title" content="Yang&#039;s site."><meta name="apple-mobile-web-app-status-bar-style" content="default"><meta name="description" content="操作手册之建立博客1.git代理第一步首先处理好git网络问题。 代理配置1.对http和https代理： 1234567891011# http and httpsgit config --global http.proxy http:&amp;#x2F;&amp;#x2F;127.0.0.1:7890git config --global https.proxy https:&amp;#x2F;&amp;#x2F;127.0.0.1:7890# socks5g"><meta property="og:type" content="blog"><meta property="og:title" content="Yang&#039;s site."><meta property="og:url" content="http://example.com/2023/12/12/%E6%93%8D%E4%BD%9C%E5%AD%A6%E4%B9%A0/%E6%93%8D%E4%BD%9C%E6%89%8B%E5%86%8C%E4%B9%8B%E5%BB%BA%E7%AB%8B%E5%8D%9A%E5%AE%A2/"><meta property="og:site_name" content="Yang&#039;s site."><meta property="og:description" content="操作手册之建立博客1.git代理第一步首先处理好git网络问题。 代理配置1.对http和https代理： 1234567891011# http and httpsgit config --global http.proxy http:&amp;#x2F;&amp;#x2F;127.0.0.1:7890git config --global https.proxy https:&amp;#x2F;&amp;#x2F;127.0.0.1:7890# socks5g"><meta property="og:locale" content="zh_CN"><meta property="og:image" content="https://raw.githubusercontent.com/AngelYang23/Picture/master/Pic/202312122011305.png"><meta property="og:image" content="https://raw.githubusercontent.com/AngelYang23/Picture/master/Pic/202312122030728.png"><meta property="og:image" content="https://raw.githubusercontent.com/AngelYang23/Picture/master/Pic/202312122031340.png"><meta property="og:image" content="https://raw.githubusercontent.com/AngelYang23/Picture/master/Pic/202312122033088.png"><meta property="og:image" content="https://raw.githubusercontent.com/AngelYang23/Picture/master/Pic/202312122114045.png"><meta property="og:image" content="https://raw.githubusercontent.com/AngelYang23/Picture/master/Pic/202312122033897.png"><meta property="og:image" content="https://raw.githubusercontent.com/AngelYang23/Picture/master/Pic/202312122131035.png"><meta property="og:image" content="https://raw.githubusercontent.com/AngelYang23/Picture/master/Pic/202312122131254.png"><meta property="og:image" content="https://raw.githubusercontent.com/AngelYang23/Picture/master/Pic/202312122132122.png"><meta property="og:image" content="https://raw.githubusercontent.com/AngelYang23/Picture/master/Pic/202312122134388.png"><meta property="og:image" content="https://raw.githubusercontent.com/AngelYang23/Picture/master/Pic/202312122137567.png"><meta property="og:image" content="https://raw.githubusercontent.com/AngelYang23/Picture/master/Pic/202312122138857.png"><meta property="og:image" content="https://raw.githubusercontent.com/AngelYang23/Picture/master/Pic/202312122139649.png"><meta property="og:image" content="https://raw.githubusercontent.com/AngelYang23/Picture/master/Pic/202312122143113.png"><meta property="article:published_time" content="2023-12-12T13:48:39.590Z"><meta property="article:modified_time" content="2023-12-12T13:48:39.590Z"><meta property="twitter:card" content="summary"><meta property="twitter:image:src" content="https://raw.githubusercontent.com/AngelYang23/Picture/master/Pic/202312122011305.png"><script type="application/ld+json">{"@context":"https://schema.org","@type":"BlogPosting","mainEntityOfPage":{"@type":"WebPage","@id":"http://example.com/2023/12/12/%E6%93%8D%E4%BD%9C%E5%AD%A6%E4%B9%A0/%E6%93%8D%E4%BD%9C%E6%89%8B%E5%86%8C%E4%B9%8B%E5%BB%BA%E7%AB%8B%E5%8D%9A%E5%AE%A2/"},"headline":"Yang's site.","image":["https://raw.githubusercontent.com/AngelYang23/Picture/master/Pic/202312122011305.png","https://raw.githubusercontent.com/AngelYang23/Picture/master/Pic/202312122030728.png","https://raw.githubusercontent.com/AngelYang23/Picture/master/Pic/202312122031340.png","https://raw.githubusercontent.com/AngelYang23/Picture/master/Pic/202312122033088.png","https://raw.githubusercontent.com/AngelYang23/Picture/master/Pic/202312122114045.png","https://raw.githubusercontent.com/AngelYang23/Picture/master/Pic/202312122033897.png","https://raw.githubusercontent.com/AngelYang23/Picture/master/Pic/202312122131035.png","https://raw.githubusercontent.com/AngelYang23/Picture/master/Pic/202312122131254.png","https://raw.githubusercontent.com/AngelYang23/Picture/master/Pic/202312122132122.png","https://raw.githubusercontent.com/AngelYang23/Picture/master/Pic/202312122134388.png","https://raw.githubusercontent.com/AngelYang23/Picture/master/Pic/202312122137567.png","https://raw.githubusercontent.com/AngelYang23/Picture/master/Pic/202312122138857.png","https://raw.githubusercontent.com/AngelYang23/Picture/master/Pic/202312122139649.png","https://raw.githubusercontent.com/AngelYang23/Picture/master/Pic/202312122143113.png"],"datePublished":"2023-12-12T13:48:39.590Z","dateModified":"2023-12-12T13:48:39.590Z","author":{"@type":"Person","name":null},"publisher":{"@type":"Organization","name":"Yang's site.","logo":{"@type":"ImageObject"}},"description":"操作手册之建立博客1.git代理第一步首先处理好git网络问题。 代理配置1.对http和https代理： 1234567891011# http and httpsgit config --global http.proxy http:&#x2F;&#x2F;127.0.0.1:7890git config --global https.proxy https:&#x2F;&#x2F;127.0.0.1:7890# socks5g"}</script><link rel="canonical" href="http://example.com/2023/12/12/%E6%93%8D%E4%BD%9C%E5%AD%A6%E4%B9%A0/%E6%93%8D%E4%BD%9C%E6%89%8B%E5%86%8C%E4%B9%8B%E5%BB%BA%E7%AB%8B%E5%8D%9A%E5%AE%A2/"><link rel="icon" href="/img/favicon.svg"><link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.0.0/css/all.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/highlight.js@11.7.0/styles/atom-one-light.css"><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;600&amp;family=Source+Code+Pro"><link rel="stylesheet" href="/css/default.css"><style>body>.footer,body>.navbar,body>.section{opacity:0}</style><!--!--><!--!--><!--!--><!--!--><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/cookieconsent@3.1.1/build/cookieconsent.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/lightgallery@1.10.0/dist/css/lightgallery.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/justifiedGallery@3.8.1/dist/css/justifiedGallery.min.css"><!--!--><!--!--><style>.pace{-webkit-pointer-events:none;pointer-events:none;-webkit-user-select:none;-moz-user-select:none;user-select:none}.pace-inactive{display:none}.pace .pace-progress{background:#3273dc;position:fixed;z-index:2000;top:0;right:100%;width:100%;height:2px}</style><script src="https://cdn.jsdelivr.net/npm/pace-js@1.2.4/pace.min.js"></script><!--!--><!--!--><!-- hexo injector head_end start --><script>
+  (function () {
+      function switchTab() {
+          if (!location.hash) {
+            return;
+          }
+
+          const id = '#' + CSS.escape(location.hash.substring(1));
+          const $tabMenu = document.querySelector(`.tabs a[href="${id}"]`);
+          if (!$tabMenu) {
+            return;
+          }
+
+          const $tabMenuContainer = $tabMenu.parentElement.parentElement;
+          Array.from($tabMenuContainer.children).forEach($menu => $menu.classList.remove('is-active'));
+          Array.from($tabMenuContainer.querySelectorAll('a'))
+              .map($menu => document.getElementById($menu.getAttribute("href").substring(1)))
+              .forEach($content => $content.classList.add('is-hidden'));
+
+          if ($tabMenu) {
+              $tabMenu.parentElement.classList.add('is-active');
+          }
+          const $activeTab = document.querySelector(id);
+          if ($activeTab) {
+              $activeTab.classList.remove('is-hidden');
+          }
+      }
+      switchTab();
+      window.addEventListener('hashchange', switchTab, false);
+  })();
+  </script><!-- hexo injector head_end end --><meta name="generator" content="Hexo 6.3.0"></head><body class="is-2-column"><nav class="navbar navbar-main"><div class="container navbar-container"><div class="navbar-brand justify-content-center"><a class="navbar-item navbar-logo" href="/">Yang&#039;s site.</a></div><div class="navbar-menu"><div class="navbar-start"><a class="navbar-item" href="/">主页</a><a class="navbar-item" href="/archives">时间轴</a><a class="navbar-item" href="/categories">分类</a><a class="navbar-item" href="/tags">标签</a><a class="navbar-item" href="/about">关于我</a></div><div class="navbar-end"><a class="navbar-item" target="_blank" rel="noopener" title="Download on GitHub" href="https://github.com/AngelYang23"><i class="fab fa-github"></i></a><a class="navbar-item search" title="搜索" href="javascript:;"><i class="fas fa-search"></i></a></div></div></div></nav><section class="section"><div class="container"><div class="columns"><div class="column order-2 column-main is-8-tablet is-8-desktop is-8-widescreen"><div class="card"><article class="card-content article" role="article"><div class="article-meta is-size-7 is-uppercase level is-mobile"><div class="level-left"><span class="level-item"><time dateTime="2023-12-12T13:48:39.590Z" title="12/12/2023, 1:48:39 PM">2023-12-12</time>发表</span><span class="level-item"><time dateTime="2023-12-12T13:48:39.590Z" title="12/12/2023, 1:48:39 PM">2023-12-12</time>更新</span></div></div><div class="content"><hr>
+<hr>
+<h1 id="操作手册之建立博客"><a href="#操作手册之建立博客" class="headerlink" title="操作手册之建立博客"></a>操作手册之建立博客</h1><h2 id="1-git代理"><a href="#1-git代理" class="headerlink" title="1.git代理"></a>1.git代理</h2><p>第一步首先处理好git网络问题。</p>
+<h3 id="代理配置"><a href="#代理配置" class="headerlink" title="代理配置"></a>代理配置</h3><p>1.对http和https代理：</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line"># http and https</span><br><span class="line">git config --global http.proxy http://127.0.0.1:7890</span><br><span class="line">git config --global https.proxy https://127.0.0.1:7890</span><br><span class="line"></span><br><span class="line"># socks5</span><br><span class="line">git config --global http.proxy socks5://127.0.0.1:7890</span><br><span class="line">git config --global https.proxy socks5://127.0.0.1:7890</span><br><span class="line"></span><br><span class="line"># unset</span><br><span class="line">git config --global --unset http.proxy</span><br><span class="line">git config --global --unset https.proxy</span><br></pre></td></tr></table></figure>
+
+<p>2.对ssh代理：</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line">sudo apt install connect-proxy</span><br><span class="line"># (or) https://github.com/larryhou/connect-proxy</span><br><span class="line">vim ~/.ssh/config</span><br><span class="line"></span><br><span class="line"># socks5</span><br><span class="line">Host github.com</span><br><span class="line">User git</span><br><span class="line">ProxyCommand connect -S 127.0.0.1:7890 %h %p</span><br><span class="line"></span><br><span class="line"># http || https</span><br><span class="line">Host github.com</span><br><span class="line">User git</span><br><span class="line">ProxyCommand connect -H 127.0.0.1:7890 %h %p</span><br></pre></td></tr></table></figure>
+
+<p>3.打开 Git 的配置文件 <code>~/.gitconfig</code>，在文件末尾添加以下内容：</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">[http]</span><br><span class="line">   proxy = http://代理地址:端口号</span><br><span class="line">[https]</span><br><span class="line">   proxy = https://代理地址:端口号</span><br></pre></td></tr></table></figure>
+
+<p>如果你的代理需要账号密码验证，可以使用以下内容：</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">[http]</span><br><span class="line">   proxy = http://用户名:密码@代理地址:端口号</span><br><span class="line">[https]</span><br><span class="line">   proxy = https://用户名:密码@代理地址:端口号</span><br></pre></td></tr></table></figure>
+
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">[https]</span><br><span class="line">	proxy = http://127.0.0.1:7890</span><br><span class="line">[http]</span><br><span class="line">	proxy = http://127.0.0.1:7890</span><br></pre></td></tr></table></figure>
+
+<p>参考：<a target="_blank" rel="noopener" href="https://juejin.cn/post/7216147029230993445">Git配置代理和取消的两种方法 - 掘金 (juejin.cn)</a></p>
+<h3 id="git-clone-链接（免密登录-git-push无需密码）"><a href="#git-clone-链接（免密登录-git-push无需密码）" class="headerlink" title="git clone 链接（免密登录 git push无需密码）"></a>git clone 链接（免密登录 git push无需密码）</h3><p>git可以使用四种主要的协议来传输资料: 本地协议（Local），HTTP 协议，SSH（Secure Shell）协议及 git 协议。其中，本地协议由于目前大都是进行远程开发和共享代码所以一般不常用，而git协议由于缺乏授权机制且较难架设所以也不常用。</p>
+<p>最常用的便是SSH和HTTP(S)协议。git关联远程仓库可以使用http协议或者ssh协议。</p>
+<p><strong>ssh：</strong></p>
+<ul>
+<li>一般使用22端口；</li>
+<li>通过先在本地生成SSH密钥对再把公钥上传到服务器；</li>
+<li>速度相较慢点</li>
+</ul>
+<p><strong>https：</strong></p>
+<ul>
+<li>一般使用443端口；</li>
+<li>通过用户名&#x2F;密码授权，可用性比较高；</li>
+<li>速度相较快点</li>
+</ul>
+<p>一般企业防火墙会打开80和443这两个http&#x2F;https协议的端口，因此在架设了企业防火墙的时候使用http就可以很好的绕开安全限制使用git了，很方便；而对于ssh来说，企业防火墙很可能没打开22端口。</p>
+<p><strong>【使用区别】</strong></p>
+<p><strong>clone项目：</strong></p>
+<p>　　**使用ssh方式时，需要配置ssh key，即要将生成的SSH密钥对的公钥上传至服务器；<br>**</p>
+<p>　　<strong>使用http方式时，没有要求，可以直接克隆下来。</strong></p>
+<p><strong>push项目：</strong></p>
+<p>　　<strong>使用ssh方式时，不需要验证用户名和密码，*<em>**之前配置过ssh key，(如果你没设置密码)**</em>*直接push即可；</strong></p>
+<p>　　<strong>使用http方式时，需要验证用户名和密码。</strong></p>
+<p> <strong>总结：</strong></p>
+<p>HTTPS利于匿名访问，适合开源项目，可以方便被别人克隆和读取(但没有push权限)；</p>
+<p>SSH不利于匿名访问，比较适合内部项目，只要配置了SSH公钥极可自由实现clone和push操作。</p>
+<h4 id="1-【github上切换SSH-HTTP方式】"><a href="#1-【github上切换SSH-HTTP方式】" class="headerlink" title="1.【github上切换SSH&#x2F;HTTP方式】"></a>1.<strong>【github上切换SSH&#x2F;HTTP方式】</strong></h4><img src="https://raw.githubusercontent.com/AngelYang23/Picture/master/Pic/202312122011305.png" alt="image-20231211222839311" style="zoom:67%;" />
+
+<h4 id="2-【如何生成SSH密钥以及上传】"><a href="#2-【如何生成SSH密钥以及上传】" class="headerlink" title="2.【如何生成SSH密钥以及上传】"></a>2.<strong>【如何生成SSH密钥以及上传】</strong></h4><img src="https://raw.githubusercontent.com/AngelYang23/Picture/master/Pic/202312122030728.png" alt="image-20231211222811442" style="zoom:67%;" />
+
+<img src="https://raw.githubusercontent.com/AngelYang23/Picture/master/Pic/202312122031340.png" alt="image-20231211222925339-17023049665181" style="zoom:67%;" />
+
+<p><img src="https://raw.githubusercontent.com/AngelYang23/Picture/master/Pic/202312122033088.png" alt="image-20231211222941917"></p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">git config --global user.name &#x27;yourname&#x27; </span><br><span class="line">git config --global user.email &#x27;youremail&#x27;</span><br><span class="line"></span><br><span class="line">// 如果之前已经设置了 那就不要加后面的yourname/youremail 直接获取即可</span><br><span class="line">输入指令：ssh-keygen -t rsa -C “youremail”；</span><br></pre></td></tr></table></figure>
+
+<p>检验配置成功：</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">ssh -T git@github.com</span><br></pre></td></tr></table></figure>
+
+<p><img src="https://raw.githubusercontent.com/AngelYang23/Picture/master/Pic/202312122114045.png" alt="image-20231212211408011"></p>
+<p><strong>注意：</strong></p>
+<p>按回车即表示默认这个文件路径名，接着又会提示你输入两次密码（<strong>该密码是你push文件的时候要输入的密码，而不是github管理者的密码</strong>），当然，你也可以不输入密码，直接按回车。那么push的时候就不需要输入密码，直接提交到github上了。</p>
+<h4 id="3-【http如何保存凭证信息】"><a href="#3-【http如何保存凭证信息】" class="headerlink" title="3.【http如何保存凭证信息】"></a>3.<strong>【http如何保存凭证信息】</strong></h4><p><img src="https://raw.githubusercontent.com/AngelYang23/Picture/master/Pic/202312122033897.png" alt="image-20231211223158533"></p>
+<p>参考：<a target="_blank" rel="noopener" href="https://www.cnblogs.com/wannananana/p/12059806.html">【git】git中使用https和ssh协议的区别以及它们的用法 - WANNANANANA - 博客园 (cnblogs.com)</a></p>
+<h2 id="2-git操作"><a href="#2-git操作" class="headerlink" title="2.git操作"></a>2.git操作</h2><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line">git pull name branch</span><br><span class="line">git add .</span><br><span class="line">git commit -m &quot;message&quot;</span><br><span class="line">git push name branch</span><br><span class="line"></span><br><span class="line">git remote add name url(github repositories)</span><br><span class="line">git remote remove name</span><br><span class="line">git remote -v</span><br><span class="line"></span><br><span class="line">git status</span><br></pre></td></tr></table></figure>
+
+<h2 id="3-markdown图片上传"><a href="#3-markdown图片上传" class="headerlink" title="3.markdown图片上传"></a>3.markdown图片上传</h2><p>typora与<a target="_blank" rel="noopener" href="https://so.csdn.net/so/search?q=picgo&spm=1001.2101.3001.7020">picgo</a>下载与安装（想办法）</p>
+<p><a target="_blank" rel="noopener" href="https://github.com/Molunerfinn/PicGo/releases">PicGo</a></p>
+<h3 id="github操作："><a href="#github操作：" class="headerlink" title="github操作："></a>github操作：</h3><p>1）<strong>github创建新仓库作为图床</strong></p>
+<p>1、如果没有GitHub的账号的话可以申请注册一个</p>
+<p>2、登陆以后，点击右上角的 <strong>+</strong> 号，然后点击 new repository 新建仓库（这个仓库作为你的图床）</p>
+<p>3、新建仓库时，仓库名必填（仓库名尽量不要有空格），私有性选择公开，然后点击 create repository</p>
+<p>2）<strong>新建token令牌</strong>作为picgo的配置输入</p>
+<p>1、点击右上角头像列表中 <strong>Setting</strong> 选项</p>
+<p>2、进入后点击最后一项： <strong>Developer setting</strong></p>
+<p>3、进入后点击右边的最后一项，并且创建一个新的 <strong>token</strong></p>
+<p>4、在 Note 填写你的token的名字，将 repo 打上勾就行，其余的不用管，然后直接点击 绿色图标 Generate token。</p>
+<p>5、完成后，一定要保存此token，因为只出现一次，一定要保存！！！！</p>
+<p><img src="https://raw.githubusercontent.com/AngelYang23/Picture/master/Pic/202312122131035.png" alt="img"></p>
+<p><img src="https://raw.githubusercontent.com/AngelYang23/Picture/master/Pic/202312122131254.png" alt="img"></p>
+<p><img src="https://raw.githubusercontent.com/AngelYang23/Picture/master/Pic/202312122132122.png" alt="image-20231212213233077"></p>
+<p><img src="https://raw.githubusercontent.com/AngelYang23/Picture/master/Pic/202312122134388.png" alt="img"></p>
+<h3 id="PicGo操作："><a href="#PicGo操作：" class="headerlink" title="PicGo操作："></a>PicGo操作：</h3><p>1、下载完成后打开PicGo</p>
+<p>2、首次使用时进入PicGo，点击设置Server，将监听窗口设为：36677。可保持默认。</p>
+<p>3、点击左边图床设置进入GitHub图床。</p>
+<p>4、设定仓库名，填写格式：你的GitHub名&#x2F;新建的仓库名</p>
+<p>5、设定分支名，填写自己想要填写的分支，也可以填写默认的 main</p>
+<p>6、设定 Token，填写刚刚保存的 token令牌。</p>
+<p>7、指定存储路径，默认为img&#x2F;，这个路径是你GitHub的新建仓库中某一个文件夹的路径</p>
+<p>8、自定义域名：这里使用 <a target="_blank" rel="noopener" href="https://raw.githubusercontent.com/%E4%BD%A0%E7%9A%84GitHub%E5%90%8D/%E4%BB%93%E5%BA%93%E5%90%8D/master%EF%BC%8C%E8%BF%99%E9%87%8C%E7%9A%84">https://raw.githubusercontent.com/你的GitHub名/仓库名/master，这里的</a> master 是你的仓库下的一个分支</p>
+<p>9、最后点击确定和设为默认图床。</p>
+<p>设置时间戳命名图片</p>
+<p>设置日志文件日志记录等级  全部-all</p>
+<p><img src="https://raw.githubusercontent.com/AngelYang23/Picture/master/Pic/202312122137567.png" alt="image-20231212213748535"></p>
+<img src="https://raw.githubusercontent.com/AngelYang23/Picture/master/Pic/202312122138857.png" alt="image-20231212213834808" style="zoom:67%;" />
+
+<img src="https://raw.githubusercontent.com/AngelYang23/Picture/master/Pic/202312122139649.png" alt="image-20231212213942607" style="zoom:67%;" />
+
+<h3 id="Typora操作："><a href="#Typora操作：" class="headerlink" title="Typora操作："></a>Typora操作：</h3><p>1、设置完PicGo之后，打开Typora，找到文件中的 偏好设置。</p>
+<p>2、插入图片第一项选择上传图片。</p>
+<p>3、点击 图像 ，前三项 以及 最后一项 打钩。</p>
+<p>4、将 上传服务改为PicGo（app）。</p>
+<p>5、PicGo路径改为你的本地PicGo安装目录中的PicGo.exe文件</p>
+<p>6、最后点击验证图片上传来验证。</p>
+<p>7、查看 PicGo 相册 和 GitHub 同步的上传</p>
+<p>8、在Typora中插入图片时，图片可以通过PicGo直接上传到GitHub仓库中，以后传输Typora文件时便不用再将图片一起打包上传。<br><img src="https://raw.githubusercontent.com/AngelYang23/Picture/master/Pic/202312122143113.png" alt="image-20231212214311060"></p>
+</div><!--!--></article></div><!--!--><nav class="post-navigation mt-4 level is-mobile"><div class="level-start"><a class="article-nav-prev level level-item link-muted" href="/2023/12/12/hello-world/"><i class="level-item fas fa-chevron-left"></i><span class="level-item">Hello World</span></a></div><div class="level-end"><a class="article-nav-next level level-item link-muted" href="/2023/09/13/test-post/"><span class="level-item">test post</span><i class="level-item fas fa-chevron-right"></i></a></div></nav><!--!--></div><div class="column column-left is-4-tablet is-4-desktop is-4-widescreen  order-1"><div class="card widget" data-type="profile"><div class="card-content"><nav class="level"><div class="level-item has-text-centered flex-shrink-1"><div><figure class="image is-128x128 mx-auto mb-2"><img class="avatar" src="/img/avatar.png" alt="Yang"></figure><p class="title is-size-4 is-block" style="line-height:inherit;">Yang</p><p class="is-size-6 is-flex justify-content-center"><i class="fas fa-map-marker-alt mr-1"></i><span>Shen yang</span></p></div></div></nav><nav class="level is-mobile"><div class="level-item has-text-centered is-marginless"><div><p class="heading">文章</p><a href="/archives"><p class="title">3</p></a></div></div><div class="level-item has-text-centered is-marginless"><div><p class="heading">分类</p><a href="/categories"><p class="title">0</p></a></div></div><div class="level-item has-text-centered is-marginless"><div><p class="heading">标签</p><a href="/tags"><p class="title">0</p></a></div></div></nav><div class="level"><a class="level-item button is-primary is-rounded" href="https://github.com/AngelYang23" target="_blank" rel="noopener">关注我</a></div><div class="level is-mobile is-multiline"><a class="level-item button is-transparent is-marginless" target="_blank" rel="noopener" title="Github" href="https://github.com/AngelYang23"><i class="fab fa-github"></i></a><a class="level-item button is-transparent is-marginless" target="_blank" rel="noopener" title="RSS" href="/"><i class="fas fa-rss"></i></a></div></div></div><!--!--><!--!--><div class="card widget" data-type="recent-posts"><div class="card-content"><h3 class="menu-label">最新文章</h3><article class="media"><div class="media-content"><p class="date"><time dateTime="2023-12-12T13:48:39.590Z">2023-12-12</time></p><p class="title"><a href="/2023/12/12/hello-world/">Hello World</a></p></div></article><article class="media"><div class="media-content"><p class="date"><time dateTime="2023-12-12T13:48:39.590Z">2023-12-12</time></p><p class="title"><a href="/2023/12/12/%E6%93%8D%E4%BD%9C%E5%AD%A6%E4%B9%A0/%E6%93%8D%E4%BD%9C%E6%89%8B%E5%86%8C%E4%B9%8B%E5%BB%BA%E7%AB%8B%E5%8D%9A%E5%AE%A2/"> </a></p></div></article><article class="media"><div class="media-content"><p class="date"><time dateTime="2023-09-13T22:38:53.000Z">2023-09-13</time></p><p class="title"><a href="/2023/09/13/test-post/">test post</a></p></div></article></div></div><div class="card widget" data-type="archives"><div class="card-content"><div class="menu"><h3 class="menu-label">归档</h3><ul class="menu-list"><li><a class="level is-mobile" href="/archives/2023/"><span class="level-start"><span class="level-item">2023</span></span><span class="level-end"><span class="level-item tag">3</span></span></a></li></ul></div></div></div><!--!--></div><!--!--></div></div></section><footer class="footer"><div class="container"><div class="level"><div class="level-start"><a class="footer-logo is-block mb-2" href="/">Yang&#039;s site.</a><p class="is-size-7"><span>&copy; 2023 Yang's site.</span>  Powered by <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a> &amp; <a href="https://github.com/ppoffice/hexo-theme-icarus" target="_blank" rel="noopener">Icarus</a></p></div><div class="level-end"></div></div></div></footer><script src="https://cdn.jsdelivr.net/npm/jquery@3.3.1/dist/jquery.min.js"></script><script src="https://cdn.jsdelivr.net/npm/moment@2.22.2/min/moment-with-locales.min.js"></script><script src="https://cdn.jsdelivr.net/npm/clipboard@2.0.4/dist/clipboard.min.js" defer></script><script>moment.locale("zh-cn");</script><script>var IcarusThemeSettings = {
+            article: {
+                highlight: {
+                    clipboard: true,
+                    fold: 'unfolded'
+                }
+            }
+        };</script><script src="/js/column.js"></script><script src="/js/animation.js"></script><a id="back-to-top" title="回到顶端" href="javascript:;"><i class="fas fa-chevron-up"></i></a><script src="/js/back_to_top.js" defer></script><!--!--><!--!--><!--!--><script src="https://cdn.jsdelivr.net/npm/cookieconsent@3.1.1/build/cookieconsent.min.js" defer></script><script>window.addEventListener("load", () => {
+      window.cookieconsent.initialise({
+        type: "info",
+        theme: "edgeless",
+        static: false,
+        position: "bottom-left",
+        content: {
+          message: "此网站使用Cookie来改善您的体验。",
+          dismiss: "知道了！",
+          allow: "允许使用Cookie",
+          deny: "拒绝",
+          link: "了解更多",
+          policy: "Cookie政策",
+          href: "https://www.cookiesandyou.com/",
+        },
+        palette: {
+          popup: {
+            background: "#edeff5",
+            text: "#838391"
+          },
+          button: {
+            background: "#4b81e8"
+          },
+        },
+      });
+    });</script><script src="https://cdn.jsdelivr.net/npm/lightgallery@1.10.0/dist/js/lightgallery.min.js" defer></script><script src="https://cdn.jsdelivr.net/npm/justifiedGallery@3.8.1/dist/js/jquery.justifiedGallery.min.js" defer></script><script>window.addEventListener("load", () => {
+            if (typeof $.fn.lightGallery === 'function') {
+                $('.article').lightGallery({ selector: '.gallery-item' });
+            }
+            if (typeof $.fn.justifiedGallery === 'function') {
+                if ($('.justified-gallery > p > .gallery-item').length) {
+                    $('.justified-gallery > p > .gallery-item').unwrap();
+                }
+                $('.justified-gallery').justifiedGallery();
+            }
+        });</script><!--!--><!--!--><!--!--><!--!--><!--!--><script src="/js/main.js" defer></script><div class="searchbox"><div class="searchbox-container"><div class="searchbox-header"><div class="searchbox-input-container"><input class="searchbox-input" type="text" placeholder="想要查找什么..."></div><a class="searchbox-close" href="javascript:;">×</a></div><div class="searchbox-body"></div></div></div><script src="/js/insight.js" defer></script><script>document.addEventListener('DOMContentLoaded', function () {
+            loadInsight({"contentUrl":"/content.json"}, {"hint":"想要查找什么...","untitled":"(无标题)","posts":"文章","pages":"页面","categories":"分类","tags":"标签"});
+        });</script></body></html>
