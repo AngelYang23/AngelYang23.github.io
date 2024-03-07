@@ -7,3 +7,5 @@ public/
 .deploy*/
 _multiconfig.yml
 .vscode/
+source/_posts/CommonSense/*.pdf
+source/_posts/CommonSense/*.docx
