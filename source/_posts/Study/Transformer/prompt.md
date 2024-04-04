@@ -5,7 +5,7 @@ updated: 2024-04-04
 categories:
 - Prompt
 tags:
-- Studing
+- Study
 description: 本篇博客记录prompt learning。
 copyright: true
 toc: true
