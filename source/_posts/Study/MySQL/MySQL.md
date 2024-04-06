@@ -1,4 +1,18 @@
-# MySQL摘抄
+---
+title: MySQL摘抄
+date: 2024-04-06
+categories:
+- Study
+tags:
+- blog
+- description: 本篇博客记录MySQL笔记。
+copyright: true
+toc: true
+---
+
+本人很懒，不多介绍！
+
+<!-- more -->
 
 ## 01 | 基础架构：一条SQL查询语句是如何执行的？
 
